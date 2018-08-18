@@ -3,6 +3,6 @@ def display_board
   cell = "   "
   horizontal_separator = "-----------"
   row = "#{cell}|#{cell}|#{cell}"
-  board = "#{row}\n#{horizontal_separator}\n#{row}\n#{horizontal_separator}\n#{row}\n"
+  puts board = "#{row}\n#{horizontal_separator}\n#{row}\n#{horizontal_separator}\n#{row}\n"
  "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 end
