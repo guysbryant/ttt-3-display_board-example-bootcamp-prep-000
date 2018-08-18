@@ -4,5 +4,4 @@ def display_board
   horizontal_separator = "-----------"
   row = "#{cell}|#{cell}|#{cell}"
   puts board = "#{row}\n#{horizontal_separator}\n#{row}\n#{horizontal_separator}\n#{row}\n"
- "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 end
